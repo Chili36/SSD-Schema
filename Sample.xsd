@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <xs:element name="Sample">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="sampMatCode">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="BaseTerm" type="xs:string"></xs:element>
+                                             <xs:element name="Facets">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Facet" maxOccurs="unbounded">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="name" type="xs:string"></xs:element>
+                                                                                 <xs:element name="value" type="xs:string"></xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="anMatCode">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="BaseTerm" type="xs:string"></xs:element>
+                                             <xs:element name="Facets">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Facet" maxOccurs="unbounded">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="name" type="xs:string"></xs:element>
+                                                                                 <xs:element name="value" type="xs:string"></xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="evalinfo">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="sampTkAsses" type="xs:string"></xs:element>
+                                             <xs:element name="sampEventAsses" type="xs:string"></xs:element>
+                                             <xs:element name="conclusion" type="xs:string"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="localOrgInfo" type="xs:string"></xs:element>
+                           <xs:element name="progId" type="xs:string"></xs:element>
+                           <xs:element name="progLegalRef" type="xs:string"></xs:element>
+                           <xs:element name="progType" type="xs:string"></xs:element>
+                           <xs:element name="sampler" type="xs:string"></xs:element>
+                           <xs:element name="sampId" type="xs:string"></xs:element>
+                           <xs:element name="sampCountry" type="xs:string"></xs:element>
+                           <xs:element name="sampY" type="xs:int"></xs:element>
+                           <xs:element name="sampMatType" type="xs:string"></xs:element>
+                           <xs:element name="origCountry" type="xs:string"></xs:element>
+                           <xs:element name="analysisY" type="xs:int"></xs:element>
+                           <xs:element name="labAccred" type="xs:string"></xs:element>
+                           <xs:element name="paramType" type="xs:string"></xs:element>
+                           <xs:element name="anMethRefCode" type="xs:string"></xs:element>
+                           <xs:element name="anMethType" type="xs:string"></xs:element>
+                           <xs:element name="resId" type="xs:int"></xs:element>
+                           <xs:element name="accredProc" type="xs:string"></xs:element>
+                           <xs:element name="resUnit" type="xs:string"></xs:element>
+                           <xs:element name="resType" type="xs:string"></xs:element>
+                           <xs:element name="evalCode" type="xs:string"></xs:element>
+                           <xs:element name="paramCode" type="xs:string"></xs:element>
+                           <xs:element name="anMethInfo">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="diskConc">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="diskDiam">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="methSensitivity">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="methSpecificity">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="contactTime_min">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="contactTemp_C">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="sampStrategy" type="xs:string"></xs:element>
+                           <xs:element name="sampUnitIds"></xs:element>
+                           <xs:element name="sampEventInfo"></xs:element>
+                           <xs:element name="sampInfo">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="arrivalY">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="arrivalM">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="arrivalD">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="sampMatinfo">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="prodY">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="prodM">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="prodD">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="expiryY">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="expiryM">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="expiryD">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="sampAnInfo">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="compY">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="compM">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="compD">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="anMatCodeAsCompund">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="building">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="building" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="source">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="source" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="part">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="part" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="state"></xs:element>
+                                             <xs:element name="ingred"></xs:element>
+                                             <xs:element name="medium"></xs:element>
+                                             <xs:element name="fat"></xs:element>
+                                             <xs:element name="sweet"></xs:element>
+                                             <xs:element name="fort"></xs:element>
+                                             <xs:element name="qual"></xs:element>
+                                             <xs:element name="alcohol"></xs:element>
+                                             <xs:element name="dough"></xs:element>
+                                             <xs:element name="cookext"></xs:element>
+                                             <xs:element name="packformat"></xs:element>
+                                             <xs:element name="packmat"></xs:element>
+                                             <xs:element name="partcon"></xs:element>
+                                             <xs:element name="prod"></xs:element>
+                                             <xs:element name="place"></xs:element>
+                                             <xs:element name="targcon"></xs:element>
+                                             <xs:element name="use"></xs:element>
+                                             <xs:element name="riskingred"></xs:element>
+                                             <xs:element name="gen"></xs:element>
+                                             <xs:element name="rawsource"></xs:element>
+                                             <xs:element name="techno"></xs:element>
+                                             <xs:element name="purposeofraising"></xs:element>
+                                             <xs:element name="reproductivelevel"></xs:element>
+                                             <xs:element name="animalageclass"></xs:element>
+                                             <xs:element name="gender"></xs:element>
+                                             <xs:element name="foodadditivelegislativeclass"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="anMatInfo" type="xs:string"></xs:element>
+                           <xs:element name="anPortinfo" type="xs:string"></xs:element>
+                           <xs:element name="isolParamCode" type="xs:string"></xs:element>
+                           <xs:element name="labInfo" type="xs:string"></xs:element>
+                           <xs:element name="anMethinfo">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="diskConc">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="diskDiam" type="xs:int"></xs:element>
+                                             <xs:element name="methSensitivity" type="xs:double"></xs:element>
+                                             <xs:element name="methSpecificity" type="xs:int"></xs:element>
+                                             <xs:element name="contactTime_min">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="contactTemp_C" type="xs:int"></xs:element>
+                                             <xs:element name="sampEventAsses" type="xs:string"></xs:element>
+                                             <xs:element name="com" type="xs:string"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="exprResPerc">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="fatPerc" type="xs:int"></xs:element>
+                                             <xs:element name="alcoholPerc">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="moistPerc" type="xs:int"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="actTakenCode">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="actTaken" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+                     <xs:attribute name="xmlns:xsi" type="xs:string"></xs:attribute>
+                     <xs:attribute name="xmlns:xsd" type="xs:string"></xs:attribute>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

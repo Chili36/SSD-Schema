@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sample xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <sampMatCode>
+    <BaseTerm>A0BXF</BaseTerm>
+    <Facets>
+      <Facet>
+        <name>F01</name>
+        <value>A057Z</value>
+      </Facet>
+      <Facet>
+        <name>F02</name>
+        <value>A069J</value>
+      </Facet>
+    </Facets>
+  </sampMatCode>
+  <anMatCode>
+    <BaseTerm>A0BXF</BaseTerm>
+    <Facets>
+      <Facet>
+        <name>F01</name>
+        <value>A057Z</value>
+      </Facet>
+      <Facet>
+        <name>F02</name>
+        <value>A069J</value>
+      </Facet>
+    </Facets>
+  </anMatCode>
+  <evalinfo>
+    <sampTkAsses>J037A</sampTkAsses>
+    <sampEventAsses>J038A</sampEventAsses>
+    <conclusion>C04A</conclusion>
+  </evalinfo>
+  <localOrgInfo>Some info</localOrgInfo>
+  <progId>Restsubstanskontrollen 2016</progId>
+  <progLegalRef>N247A</progLegalRef>
+  <progType>K018A</progType>
+  <sampler>CX02A</sampler>
+  <sampId>16-SLV000960</sampId>
+  <sampCountry>SE</sampCountry>
+  <sampY>2016</sampY>
+  <sampMatType>S019A</sampMatType>
+  <origCountry>SE</origCountry>
+  <analysisY>2016</analysisY>
+  <labAccred>L001A</labAccred>
+  <paramType>P002A</paramType>
+  <anMethRefCode>R056A</anMethRefCode>
+  <anMethType>AT08A</anMethType>
+  <resId>100002</resId>
+  <accredProc>V001A</accredProc>
+  <resUnit>µg/kg fett</resUnit>
+  <resType>LOQ</resType>
+  <evalCode>J002A</evalCode>
+  <paramCode>RF-00000186-ORG</paramCode>
+  <anMethInfo>
+    <diskConc xsi:nil="true" />
+    <diskDiam xsi:nil="true" />
+    <methSensitivity xsi:nil="true" />
+    <methSpecificity xsi:nil="true" />
+    <contactTime_min xsi:nil="true" />
+    <contactTemp_C xsi:nil="true" />
+  </anMethInfo>
+  <sampStrategy>ST20A</sampStrategy>
+  <sampUnitIds />
+  <sampEventInfo />
+  <sampInfo>
+    <arrivalY xsi:nil="true" />
+    <arrivalM xsi:nil="true" />
+    <arrivalD xsi:nil="true" />
+  </sampInfo>
+  <sampMatinfo>
+    <prodY xsi:nil="true" />
+    <prodM xsi:nil="true" />
+    <prodD xsi:nil="true" />
+    <expiryY xsi:nil="true" />
+    <expiryM xsi:nil="true" />
+    <expiryD xsi:nil="true" />
+  </sampMatinfo>
+  <sampAnInfo>
+    <compY xsi:nil="true" />
+    <compM xsi:nil="true" />
+    <compD xsi:nil="true" />
+  </sampAnInfo>
+  <anMatCodeAsCompund>
+    <building>
+      <building>A0BXF</building>
+    </building>
+    <source>
+      <source>A057Z</source>
+    </source>
+    <part>
+      <part>A069J</part>
+    </part>
+    <state />
+    <ingred />
+    <medium />
+    <fat />
+    <sweet />
+    <fort />
+    <qual />
+    <alcohol />
+    <dough />
+    <cookext />
+    <packformat />
+    <packmat />
+    <partcon />
+    <prod />
+    <place />
+    <targcon />
+    <use />
+    <riskingred />
+    <gen />
+    <rawsource />
+    <techno />
+    <purposeofraising />
+    <reproductivelevel />
+    <animalageclass />
+    <gender />
+    <foodadditivelegislativeclass />
+  </anMatCodeAsCompund>
+  <anMatInfo>anmatinfo</anMatInfo>
+  <anPortinfo>anportinfo</anPortinfo>
+  <isolParamCode>isolParamCode</isolParamCode>
+  <labInfo>labinfo</labInfo>
+  <anMethinfo>
+    <diskConc xsi:nil="true" />
+    <diskDiam>4</diskDiam>
+    <methSensitivity>0.725</methSensitivity>
+    <methSpecificity>0</methSpecificity>
+    <contactTime_min xsi:nil="true" />
+    <contactTemp_C>0</contactTemp_C>
+    <sampEventAsses>J038A</sampEventAsses>
+    <com>a comment on the analytical method</com>
+  </anMethinfo>
+  <exprResPerc>
+    <fatPerc>12</fatPerc>
+    <alcoholPerc xsi:nil="true" />
+    <moistPerc>11</moistPerc>
+  </exprResPerc>
+  <actTakenCode>
+    <actTaken>F</actTaken>
+    <actTaken>A</actTaken>
+    <actTaken>D</actTaken>
+    <actTaken>E</actTaken>
+  </actTakenCode>
+</Sample>
