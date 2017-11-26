@@ -1,0 +1,121 @@
+{
+  "sampMatCode": {
+    "BaseTerm": "A0BXF",
+    "Facets": [
+      {
+        "name": "F01",
+        "value": "A057Z"
+      },
+      {
+        "name": "F02",
+        "value": "A069J"
+      }
+    ]
+  },
+  "anMatCode": {
+    "BaseTerm": "A0BXF",
+    "Facets": [
+      {
+        "name": "F01",
+        "value": "A057Z"
+      },
+      {
+        "name": "F02",
+        "value": "A069J"
+      }
+    ]
+  },
+  "evalinfo": {
+    "sampTkAsses": "J037A",
+    "sampEventAsses": "J038A",
+    "conclusion": "C04A"
+  },
+  "localOrgInfo": "Some info",
+  "progId": "Restsubstanskontrollen 2016",
+  "progLegalRef": "N247A",
+  "progType": "K018A",
+  "sampler": "CX02A",
+  "sampId": "16-SLV000960",
+  "sampCountry": "SE",
+  "sampY": 2016,
+  "sampMatType": "S019A",
+  "origCountry": "SE",
+  "analysisY": 2016,
+  "labAccred": "L001A",
+  "paramType": "P002A",
+  "anMethRefCode": "R056A",
+  "anMethType": "AT08A",
+  "resId": "100002",
+  "accredProc": "V001A",
+  "resUnit": "µg/kg fett",
+  "resType": "LOQ",
+  "evalCode": "J002A",
+  "paramCode": "RF-00000186-ORG",
+  "anMethInfo": {},
+  "sampStrategy": "ST20A",
+  "sampUnitIds": {},
+  "sampEventInfo": {},
+  "sampInfo": {},
+  "sampMatinfo": {},
+  "sampAnInfo": {},
+  "anMatCodeAsCompund": {
+    "building": [
+      "A0BXF"
+    ],
+    "source": [
+      "A057Z"
+    ],
+    "part": [
+      "A069J"
+    ],
+    "state": [],
+    "ingred": [],
+    "medium": [],
+    "fat": [],
+    "sweet": [],
+    "fort": [],
+    "qual": [],
+    "alcohol": [],
+    "dough": [],
+    "cookext": [],
+    "packformat": [],
+    "packmat": [],
+    "partcon": [],
+    "prod": [],
+    "place": [],
+    "targcon": [],
+    "use": [],
+    "riskingred": [],
+    "gen": [],
+    "rawsource": [],
+    "techno": [],
+    "purposeofraising": [],
+    "reproductivelevel": [],
+    "animalageclass": [],
+    "gender": [],
+    "foodadditivelegislativeclass": []
+  },
+  "anMatInfo": "anmatinfo",
+  "anPortinfo": "anportinfo",
+  "isolParamCode": "isolParamCode",
+  "labInfo": "labinfo",
+  "anMethinfo": {
+    "diskDiam": 4.0,
+    "methSensitivity": 0.725,
+    "methSpecificity": 0.0,
+    "contactTemp_C": 0.0,
+    "sampEventAsses": "J038A",
+    "com": "a comment on the analytical method"
+  },
+  "exprResPerc": {
+    "fatPerc": 12.0,
+    "moistPerc": 11.0
+  },
+  "actTakenCode": [
+    "F",
+    "A",
+    "D",
+    "E"
+  ]
+}
+
