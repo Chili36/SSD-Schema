@@ -1,2 +1,4 @@
 # SSD-Schema
-Samplefiles for discussing a new version of the SSD-schema
+Sample files used in discussing a new version of the SSD-schema for EFSA SSD2. 
+
+
