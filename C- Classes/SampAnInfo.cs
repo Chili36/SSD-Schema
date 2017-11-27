@@ -11,5 +11,6 @@ namespace SSD_schema
         public int? compY { get; set; }
         public int? compM { get; set; }
         public int? compD { get; set; }
+        public string com { get; set; }
     }
 }
